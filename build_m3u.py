@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 def load_config() -> dict:
-    cfg_path = Path(__file__).resolve().parent / "config.json
+    cfg_path = Path(__file__).resolve().parent / "config.json"
     return json.loads(cfg_path.read_text(encoding="utf-8"))
 
 def build_m3u(music_dir: Path, out_path: Path, exts: list[str], max_tracks: int, newest_first: bool) -> int:
