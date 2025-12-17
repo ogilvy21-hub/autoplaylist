@@ -1,0 +1,12 @@
+{
+  "music_dir": "/home/oai/Downloads/Suno",
+  "m3u_name": "playlist.m3u8",
+  "playlist_name": "Suno Daily",
+  "max_tracks": 200,
+  "extensions": [
+    ".mp3",
+    ".wav",
+    ".m4a"
+  ],
+  "sort": "newest_first"
+}
