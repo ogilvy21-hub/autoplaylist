@@ -1,5 +1,3 @@
-cd ~/autoplaylist
-cat > config.json <<'JSON'
 {
   "inbox_dir": "~/Downloads/Suno/INBOX",
   "root_dir": "~/Downloads/Suno/CHANNELS",
@@ -9,4 +7,4 @@ cat > config.json <<'JSON'
   "settle_seconds": 2,
   "current_channel": "channel_1"
 }
-JSON
+
