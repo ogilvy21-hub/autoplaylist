@@ -1,12 +1,9 @@
 {
-  "music_dir": "~/Downloads/Suno",
-  "m3u_name": "playlist.m3u8",
-  "playlist_name": "Suno Daily",
-  "max_tracks": 200,
-  "extensions": [
-    ".mp3",
-    ".wav",
-    ".m4a"
-  ],
-  "sort": "newest_first"
+  "inbox_dir": "~/Downloads/Suno/INBOX",
+  "root_dir": "~/Downloads/Suno/CHANNELS",
+  "playlists_dir": "~/Downloads/Suno/PLAYLISTS",
+  "extensions": [".mp3", ".wav", ".m4a"],
+  "poll_seconds": 2,
+  "settle_seconds": 2,
+  "current_channel": "channel_1"
 }
